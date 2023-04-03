@@ -1,0 +1,34 @@
+.dropdown-toggle::after {
+    display: none;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .task .form-check {
+    padding-left: 0;
+} */
+
+.task label.checked {
+    text-decoration: line-through;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filters span.active {
+    color: #3C87FF;
+}
+
+.filters span {
+    margin-right: .3rem;
+    font-size: .9rem;
+    cursor: pointer;
+    column-rule-color: #444444;
+}
