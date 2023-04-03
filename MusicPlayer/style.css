@@ -1,0 +1,54 @@
+:root {
+    --btn-color: #C58940;
+    --span-color: #E5BA73;
+}
+
+.btn-primary {
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--span-color);
+    border-color: var(--span-color);
+}
+
+.btn-primary:active {
+    background-color: var(--span-color);
+    border-color: var(--span-color);
+}
+
+.span-colors {
+    background-color: var(--span-color);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+}
+
+#progress .times, 
+.card-footer,
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.volume-container i {
+    margin-right: 5px;
+}
+
+li.playing {
+    background-color: var(--btn-color);
+    color: #fff;
+}
+.card-img-top {
+    max-height: 300px;
+}
